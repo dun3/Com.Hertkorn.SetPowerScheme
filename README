@@ -1,0 +1,23 @@
+WHAT IS IT
+==========
+
+It's a little tool that makes sure that a certain power set is always active while the computer is running. This often is not the case on centrally managed laptops, etc.
+
+HOW TO USE IT
+=============
+
+Either set up a task or use the daemon mode to let the program do it's work continuously.
+
+HOW TO SET IT UP
+================
+
+Either use the config file or use the command-line like this:
+
+Com.Hertkorn.SetPowerScheme.exe <targetPowerSchemeGuid> [--daemon]
+
+WHERE DO I GET THE GUID
+=======================
+
+Either use 
+c:\Windows\System32\powercfg.exe -list
+or copy and paste the guid you get, when running the program without command-line arguments.
