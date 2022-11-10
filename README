@@ -6,7 +6,7 @@ It's a little tool that makes sure that a certain power set is always active whi
 HOW TO USE IT
 =============
 
-Either set up a task or use the daemon mode to let the program do it's work continuously.
+Either set up a task or use the daemon mode to let the program do its work continuously.
 
 HOW TO SET IT UP
 ================
